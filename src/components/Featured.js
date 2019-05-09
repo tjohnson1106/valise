@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { RoomContext } from "../context";
 
-import Room from "./Room";
+import Room from "../pages/Room";
 import Title from "./Title";
 import Loading from "./Loading";
 
