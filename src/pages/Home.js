@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import Services from "../components/Services";
 import Featured from "../components/Featured";
+import { StyledHero as Button } from "../components/StyledHero";
 
 export default function Home() {
   return (
