@@ -21,8 +21,6 @@ class Featured extends Component {
         <div className="featured-rooms-center">
           {loading ? <Loading /> : rooms}
         </div>
-
-        <Loading />
       </section>
     );
   }
