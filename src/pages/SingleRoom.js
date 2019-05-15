@@ -50,7 +50,7 @@ class SingleRoom extends Component {
     } = room;
 
     const [mainImg, ...defaultImg] = images;
-    console.log(defaultImgS);
+    console.log(defaultImg);
 
     return (
       <>
