@@ -9,7 +9,7 @@ const getUnique = (items, value) => {
   return [...new Set(items.map((item) => item[value]))];
 };
 
-export default function RoomsContainer() {
+export default function RoomsFilter({ rooms }) {
   const context = useContext(RoomContext);
 
   const {
@@ -49,8 +49,8 @@ export default function RoomsContainer() {
           name="type"
           id="type"
           className="form-control"
-          value={type}
           onChange={handleChange}
+          value={type}
         >
           {types}
         </select>
